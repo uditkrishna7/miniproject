@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Order Now - Shree Radha Krishna Enterprises</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item"><a href="categories.html">Categories</a></li>
+                <li class="menu-item"><a href="about.html">About Us</a></li>
+                <li class="menu-item"><a href="order.html">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Order Page Content -->
+    <main>
+        <h2>Order Now</h2>
+        <p>Customize your box order below:</p>
+
+        <form action="#" method="POST">
+            <label for="box-type">Select Box Type:</label>
+            <select id="box-type" name="box-type">
+                <option value="packaging-box">Packaging Box</option>
+                <option value="gift-box">Gift Box</option>
+                <option value="eco-box">Eco-Friendly Box</option>
+            </select>
+
+            <label for="color">Select Color:</label>
+            <input type="text" id="color" name="color" placeholder="Enter color">
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1">
+
+            <input type="submit" value="Place Order">
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Shree Radha Krishna Enterprises. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

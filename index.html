@@ -1,33 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Shree Radha Krishna Enterprises - Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <h3>Hello this is just a test heading</h3>
-    <div class="header">
-        <a href="#default" class="logo">Shree Radha Krishna Enterprises</a>
-        <div class="header-right">
-            <a class="#home" href="#home">Home</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item"><a href="categories.html">Categories</a></li>
+                <li class="menu-item"><a href="about.html">About Us</a></li>
+                <li class="menu-item"><a href="order.html">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Slideshow Section -->
+    <section class="slideshow">
+        <h2>Our Buyers</h2>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="buyer1.jpg" style="width:100%">
+                <div class="text">Buyer 1</div>
+                <a href="order.html" class="shop-now-btn">Shop Now</a>
+            </div>
+            <div class="mySlides fade">
+                <img src="buyer2.jpg" style="width:100%">
+                <div class="text">Buyer 2</div>
+                <a href="order.html" class="shop-now-btn">Shop Now</a>
+            </div>
+            <div class="mySlides fade">
+                <img src="buyer3.jpg" style="width:100%">
+                <div class="text">Buyer 3</div>
+                <a href="order.html" class="shop-now-btn">Shop Now</a>
+            </div>
         </div>
-    </div>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, modi ab. A iure dignissimos expedita
-        tempora inventore error dolorem, mollitia quam vel dolorum reiciendis quidem fugit temporibus provident odit
-        sunt!</p>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Packaging Box 1</h3>
+                <p>High-quality retail packaging solution.</p>
+                <a href="order.html" class="shop-now-btn">Shop Now</a>
+            </div>
+            <div class="product-item">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Gift Box 1</h3>
+                <p>Perfectly crafted gift box for special occasions.</p>
+                <a href="order.html" class="shop-now-btn">Shop Now</a>
+            </div>
+            <div class="product-item">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Eco-Friendly Box</h3>
+                <p>Sustainable, eco-friendly packaging option.</p>
+                <a href="order.html" class="shop-now-btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: 244/2 Chak Zero Road, Prayagraj, Uttar Pradesh</p>
+        <p>Mobile No: 1234567890, 0987654321</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Shree Radha Krishna Enterprises. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
-<footer>
-    <div class="footer">
-        <p>
-            <h2>About us</h2>
-        </p>
-    </div>
-</footer>
 </html>
